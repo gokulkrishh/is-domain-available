@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 var meow = require('meow');
-var isDomain = require('./');
+var isDomainAvailable = require('./');
 
 var cli = meow(`
   Usage:
-    is-domain <domain-name>
+    is-domain-available <domain-name>
   Example:
-    is-domain gokul.com
+    is-domain-available gokul.com
 `);
 
 if (cli.input.length === 0) {
@@ -15,4 +15,4 @@ if (cli.input.length === 0) {
   process.exit(1);
 }
 
-isDomain(cli.input[0]);
+isDomainAvailable(cli.input[0]);

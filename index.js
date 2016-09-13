@@ -9,12 +9,16 @@ var domainURL = "https://api.ote-godaddy.com/api/v1/domains/available?domain=";
 
 module.exports = function(args) {
   snakeloader.start();
+
   simpleFetch.getJson(domainURL + args)
     .then(function (data) {
       console.log("Result: ");
+
       var available = data['available'] ? "Yes ✔": "No ✗";
       table.push([data['domain'], data['price'], data['currency'], available]);
+
       console.log(table.toString());
+
       snakeloader.stop();
     })
     .catch(function (err) {

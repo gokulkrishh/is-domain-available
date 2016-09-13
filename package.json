@@ -1,5 +1,5 @@
 {
-  "name": "is-domain",
+  "name": "is-domain-available",
   "version": "1.0.0",
   "description": "Check domain availability",
   "main": "index.js",
@@ -11,21 +11,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gokulkrishh/is-domain.git"
+    "url": "git+https://github.com/gokulkrishh/is-domain-avaiable.git"
   },
   "keywords": [
     "domain",
     "availability",
     "check-domain",
+    "domain available",
+    "domains",
     "domains",
     "godaddy"
   ],
   "author": "gokulkrishh <krishnangokul9@gmail.com> (https://github.com/gokulkrishh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gokulkrishh/is-domain/issues"
+    "url": "https://github.com/gokulkrishh/is-domain-avaiable/issues"
   },
-  "homepage": "https://github.com/gokulkrishh/is-domain#readme",
+  "homepage": "https://github.com/gokulkrishh/is-domain-avaiable#readme",
   "dependencies": {
     "cli-table": "^0.3.1",
     "fetch": "^1.1.0",
