@@ -4,7 +4,7 @@
 
 *GIF*
 
-![demo](https://raw.githubusercontent.com/gokulkrishh/is-domain/master/domain-availability.gif)
+![demo](https://raw.githubusercontent.com/gokulkrishh/is-domain/master/demo.gif)
 
 ## Install
 
