@@ -1,2 +1,3 @@
 # is-domain
-Check domain availability 
+
+> check domain availability 
