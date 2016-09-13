@@ -16,6 +16,6 @@ npm install -g is-domain-available
 is-domain-available gokul.com
 ```
 
-### Licence
+### License
 
 MIT © [Gokulakrishnan Kalaikovan](http://github.com/gokulkrishh)   
