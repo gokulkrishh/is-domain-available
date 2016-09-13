@@ -1,0 +1,32 @@
+{
+  "name": "is-domain",
+  "version": "1.0.0",
+  "description": "Check domain availability",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokulkrishh/is-domain.git"
+  },
+  "keywords": [
+    "domain",
+    "availability",
+    "check-domain",
+    "domains",
+    "godaddy"
+  ],
+  "author": "gokulkrishh <krishnangokul9@gmail.com> (https://github.com/gokulkrishh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gokulkrishh/is-domain/issues"
+  },
+  "homepage": "https://github.com/gokulkrishh/is-domain#readme"
+}
