@@ -1,6 +1,8 @@
-# is-domain
+# is-domain-available
 
 > Check domain availability
+
+*GIF*
 
 ![demo](https://raw.githubusercontent.com/gokulkrishh/is-domain/master/domain-availability.gif)
 

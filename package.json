@@ -1,13 +1,13 @@
 {
   "name": "is-domain-available",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check domain availability",
   "main": "index.js",
   "engines": {
     "node": ">=4"
   },
   "bin": {
-    "is-domain": "./cli.js"
+    "is-domain-available": "./cli.js"
   },
   "repository": {
     "type": "git",
