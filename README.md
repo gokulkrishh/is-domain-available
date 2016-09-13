@@ -7,13 +7,13 @@
 ## Install
 
 ```sh
-npm install -g is-domain
+npm install -g is-domain-available
 ```
 
 ## Usage
 
 ```sh
-is-domain gokul.in
+is-domain-available gokul.com
 ```
 
 ### Licence
