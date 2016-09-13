@@ -1,4 +1,4 @@
-# is-domain ![](https://travis-ci.org/gokulkrishh/is-domain.svg?branch=master)
+# is-domain
 
 > Check domain availability
 

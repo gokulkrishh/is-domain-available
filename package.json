@@ -6,14 +6,8 @@
   "engines": {
     "node": ">=4"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "bin": {
     "is-domain": "./cli.js"
-  },
-  "devDependencies": {
-    "mocha": "^3.0.2"
   },
   "repository": {
     "type": "git",
