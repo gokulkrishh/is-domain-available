@@ -1,28 +1,25 @@
-var simpleFetch = require('simple-fetch');
-var snakeloader = require('snake-cli-loader');
-var Table = require('cli-table');
-var table = new Table({
+const colors = require('./colors');
+const simpleFetch = require('simple-fetch');
+const snakeloader = require('snake-cli-loader');
+const Table = require('cli-table');
+const table = new Table({
   head: ['Domain', 'Price', 'Currency', 'Available']
 });
 
-var domainURL = "https://api.ote-godaddy.com/api/v1/domains/available?domain=";
+const domainURL = "https://api.ote-godaddy.com/api/v1/domains/available?domain=";
 
 module.exports = function(args) {
   snakeloader.start();
-
   simpleFetch.getJson(domainURL + args)
     .then(function (data) {
-      console.log("Result: ");
-
-      var available = data['available'] ? "Yes ✔": "No ✗";
-      table.push([data['domain'], data['price'], data['currency'], available]);
-
-      console.log(table.toString());
-
       snakeloader.stop();
+      console.log("Result: ");
+      var available = data['available'] ? colors.green("Yes ✔"): colors.red("No ✗");
+      table.push([data['domain'], data['price'], data['currency'], available]);
+      console.log(table.toString());
     })
     .catch(function (err) {
-      console.log("Error occurred!");
       snakeloader.stop();
+      console.log(colors.yellow("Sorry this domain is not available!"));
     });
 }
